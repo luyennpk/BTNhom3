@@ -2,8 +2,19 @@ package BTNhom;
 
 public class HinhTron {
 
-	public HinhTron() {
-		// TODO Auto-generated constructor stub
-	}
+	private double banKinh;
 
+	public HinhTron(float banKinh) {
+		this.banKinh = banKinh;
+	}
+	
+	public double Tinh_Dien_Tich()
+	{
+		return (banKinh*banKinh)*3.14;
+	}
+	
+	public double Tinh_Chu_Vi()
+	{
+		return banKinh*2*3.14;
+	}
 }
